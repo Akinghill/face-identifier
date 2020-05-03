@@ -1,6 +1,7 @@
 .Logo{
   position:relative;
   top: -4rem;
+  opacity: .5;
 }
 
 .Tilt{
