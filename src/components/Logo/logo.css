@@ -1,0 +1,12 @@
+.Logo{
+  position:relative;
+  top: -4rem;
+}
+
+.Tilt{
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+}
+img{
+  transform: scale(.75);
+}
