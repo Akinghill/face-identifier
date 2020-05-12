@@ -5,7 +5,7 @@ import anon from './anon.svg'
 
 export const Logo = () => {
   return (
-    <div className="Logo ma4 mt0">
+    <div className="Logo ma4 mt0" style={{width: '33%'}}>
       <Tilt className="Tilt br2 shadow2" options={{ max: 55 }} style={{ height: 250, width: 250 }} >
         <div className="Tilt-inner">
           <img className="logo" src={anon} alt="site logo"></img>
