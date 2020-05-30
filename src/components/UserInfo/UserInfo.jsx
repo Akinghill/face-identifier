@@ -1,12 +1,12 @@
 import React from 'react'
 
-export const UserInfo = () => {
+export const UserInfo = ({ name, entries}) => {
   return (
     <div className='center'>
       <div className="white f3">
         <p>
-          Hello {'Username'}. <br />
-          Your current rank is <span>{'UserRank'}</span>
+          Hello {name}. <br />
+          Your current entries count is <span>{entries}</span>
         </p>
       </div>
     </div>
